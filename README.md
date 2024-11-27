@@ -35,7 +35,7 @@ python app.py
 The server will be available at http://127.0.0.1:5000.
 
 API Endpoints
-1. POST /shorten
+1. POST /shorten_the_given_url  
 Shorten a given URL.
 
 Request:
@@ -53,7 +53,7 @@ Redirect to the original URL using the shortened link.
 Request: Access the shortened URL (e.g., http://127.0.0.1:5000/abc123).
 Response: Redirects to https://example.com.
 
-4. GET /stats/:shortId
+4. GET /data_given/:shortId
 Retrieve statistics for a shortened URL.
 
 Request:
@@ -80,7 +80,7 @@ Get Statistics for a Short URL:
 curl http://127.0.0.1:5000/stats/<shortId>
 
 Notes
-Rate Limiting: The /shorten endpoint is limited to 10 requests per minute.
+Rate Limiting: The /shorten_the_given_url endpoint is limited to 10 requests per minute.
 Use an active MongoDB connection (e.g., MongoDB Atlas) to store and retrieve data.
 
 Deployment
