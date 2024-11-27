@@ -19,7 +19,7 @@ A package manager like pip
 
 Installation and Setup
 1. Clone the Repository
-git clone https://github.com/your-repo/url-shortener-api.git
+git clone https://github.com/AvishkarDeshpande/URL_Shorten.git
 cd url-shortener-api
 
 2. Install Dependencies
