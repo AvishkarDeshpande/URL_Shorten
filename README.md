@@ -85,3 +85,4 @@ Rate Limiting: The /shorten endpoint is limited to 10 requests per minute.
 Use an active MongoDB connection (e.g., MongoDB Atlas) to store and retrieve data.
 
 Deployment
+https://url-shorten-962u.onrender.com
