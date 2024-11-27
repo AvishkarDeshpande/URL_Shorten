@@ -1,6 +1,3 @@
-
-Here’s a README.md file tailored for your assignment requirements:
-
 URL Shortener API: 
 This is a simple URL shortener backend application built using Flask and MongoDB. The application allows users to shorten URLs, retrieve the original URL, and view usage statistics.
 
@@ -11,6 +8,7 @@ Total number of clicks.
 Last accessed timestamp.
 Rate limiting to prevent abuse (10 requests per minute for shortening URLs).
 Prerequisites
+
 Before running the application, ensure you have the following installed:
 
 Python (>=3.7)
@@ -71,17 +69,17 @@ Sample Requests (Using CURL)
 Shorten a URL:
 curl -X POST -H "Content-Type: application/json" \
 -d '{"url": "https://example.com"}' \
-http://127.0.0.1:5000/shorten
+http://127.0.0.1:5000/shorten_the_given_url
 
 Redirect to Original URL:
 Visit http://127.0.0.1:5000/<shortId> in a browser.
 
 Get Statistics for a Short URL:
-curl http://127.0.0.1:5000/stats/<shortId>
+curl http://127.0.0.1:5000/data_given/<shortId>
 
 Notes
 Rate Limiting: The /shorten_the_given_url endpoint is limited to 10 requests per minute.
 Use an active MongoDB connection (e.g., MongoDB Atlas) to store and retrieve data.
 
-Deployment
+Deployment Link on render:
 https://url-shorten-962u.onrender.com
