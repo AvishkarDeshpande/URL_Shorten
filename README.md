@@ -1,11 +1,10 @@
 
 Here’s a README.md file tailored for your assignment requirements:
 
-URL Shortener API
+URL Shortener API: 
 This is a simple URL shortener backend application built using Flask and MongoDB. The application allows users to shorten URLs, retrieve the original URL, and view usage statistics.
 
-Features
-Shorten long URLs into unique short URLs.
+Features: Shorten long URLs into unique short URLs.
 Redirect to the original URL using the shortened link.
 View statistics for each shortened URL:
 Total number of clicks.
@@ -28,7 +27,7 @@ pip install -r requirements.txt
 
 4. Set Up Environment Variables
 Create a .env file in the root directory and add your MongoDB connection string:
-MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>
+MONGO_URI=mongodb+srv://avishkardeshpande22:FETBO3BJ9YskMtZB@url-api.4a71a.mongodb.net/your_database_name?retryWrites=true&w=majority&appName=URL-API
 
 4. Run the Application
 Start the server:
